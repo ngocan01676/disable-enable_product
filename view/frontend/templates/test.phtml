@@ -1,0 +1,20 @@
+<?php 
+/**
+ * @var   $block AN\CategoryAttribute\Block;
+ */ 
+
+
+
+// get the list of all categories
+$categories = $block->getCategoryCollection(); 
+foreach ($categories as $category) {
+	if($category->getName()!="Default Category")
+	{
+		echo $category->getName() . '<br />';
+	}
+
+	
+}
+
+
+?>
