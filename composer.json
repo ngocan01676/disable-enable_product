@@ -1,5 +1,5 @@
 {
-  "name": "AN/magento-2-Category-attribute",
+  "name": "AN/OrderHistory",
   "description": "Hello World module for Magento 2",
   "type": "magento2-module",
   "version": "1.0.0",
@@ -17,7 +17,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "AN\\QtyEvent\\": ""
+      "AN\\OrderHistory\\": ""
     }
   }
 }
